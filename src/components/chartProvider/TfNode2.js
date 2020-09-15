@@ -6,7 +6,7 @@ import * as tf from '@tensorflow/tfjs'
 
 import BlockFinder from '../blockComposer/BlockFinder'
 
-import {get_ops,keyToClassName} from './get_tf_ops'
+import {get_ops, keyToClassName} from './get_tf_ops'
 import {get_default_op_params} from './ops_default_params'
 import './tf_css_colors.css'
 import './tf_node_css.css'
@@ -19,19 +19,20 @@ const TfNode = React.memo(({data}) => {
     
     data.tf_op = get_ops(data)
     data.params = get_default_op_params(data)
-    data.params.tfOp = data.op  
+    data.params.tf_Op_name = data.op  
 
+    // needed to get/set function parameters
     data.set_tf_function = () => {
         data.tf_function = data.tf_op(data.params)
-        console.log(data.tf_function)
         data.params.name = data.tf_function.name
-        // data.label = data.tf_function.name
     }
 
+    // apply tensorflow function
     data.compute = (input) => {
         return data.tf_op(data.params).apply(input)
     }
 
+    // parameters text input onChange event
     data.param_changed = (e, key) => {
         e.preventDefault();
         let tmp = e.target.value;
@@ -46,18 +47,21 @@ const TfNode = React.memo(({data}) => {
         data.params[key]=tmp;   
     }
 
+    // shrink/expand node UI
     data.paramsBtnClicked = (e) => {
         e.preventDefault();
         setShrinked(!shrinked);
     }
 
+    // check if node is an input tensor or an input layer
     data.isInput = () => {
         return data.op.match("input")
     }
 
     return (
         <div id={data.label + "node"}  className={`node_container ${data.selected ? "selected" : ""}`}>  
-            {!data.isInput() &&<Handle
+            {!data.isInput() &&
+            <Handle
                 type="target"
                 position="top"
                 className="handle"
