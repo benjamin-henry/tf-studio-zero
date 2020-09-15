@@ -1,0 +1,1757 @@
+.Creation {
+	background: none;
+}
+
+.tf_tensor {
+	background: none;
+}
+
+.tf_scalar {
+	background: none;
+}
+
+.tf_tensor1d {
+	background: none;
+}
+
+.tf_tensor2d {
+	background: none;
+}
+
+.tf_tensor3d {
+	background: none;
+}
+
+.tf_tensor4d {
+	background: none;
+}
+
+.tf_tensor5d {
+	background: none;
+}
+
+.tf_tensor6d {
+	background: none;
+}
+
+.tf_buffer {
+	background: none;
+}
+
+.tf_clone {
+	background: none;
+}
+
+.tf_complex {
+	background: none;
+}
+
+.tf_eye {
+	background: none;
+}
+
+.tf_fill {
+	background: none;
+}
+
+.tf_imag {
+	background: none;
+}
+
+.tf_linspace {
+	background: none;
+}
+
+.tf_oneHot {
+	background: none;
+}
+
+.tf_ones {
+	background: none;
+}
+
+.tf_onesLike {
+	background: none;
+}
+
+.tf_print {
+	background: none;
+}
+
+.tf_range {
+	background: none;
+}
+
+.tf_real {
+	background: none;
+}
+
+.tf_truncatedNormal {
+	background: none;
+}
+
+.tf_variable {
+	background: none;
+}
+
+.tf_zeros {
+	background: none;
+}
+
+.tf_zerosLike {
+	background: none;
+}
+
+.Classes {
+	background: none;
+}
+
+.tf_Tensor_buffer {
+	background: none;
+}
+
+.tf_Tensor_bufferSync {
+	background: none;
+}
+
+.tf_Tensor_array {
+	background: none;
+}
+
+.tf_Tensor_arraySync {
+	background: none;
+}
+
+.tf_Tensor_data {
+	background: none;
+}
+
+.tf_Tensor_dataSync {
+	background: none;
+}
+
+.tf_Tensor_dispose {
+	background: none;
+}
+
+.tf_Tensor_print {
+	background: none;
+}
+
+.tf_Tensor_clone {
+	background: none;
+}
+
+.tf_Tensor_toString {
+	background: none;
+}
+
+.tf_Variable_assign {
+	background: none;
+}
+
+.tf_TensorBuffer_set {
+	background: none;
+}
+
+.tf_TensorBuffer_get {
+	background: none;
+}
+
+.tf_TensorBuffer_toTensor {
+	background: none;
+}
+
+.Transformations {
+	background: none;
+}
+
+.tf_batchToSpaceND {
+	background: none;
+}
+
+.tf_broadcastTo {
+	background: none;
+}
+
+.tf_cast {
+	background: none;
+}
+
+.tf_depthToSpace {
+	background: none;
+}
+
+.tf_expandDims {
+	background: none;
+}
+
+.tf_pad {
+	background: none;
+}
+
+.tf_reshape {
+	background: none;
+}
+
+.tf_setdiff1dAsync {
+	background: none;
+}
+
+.tf_spaceToBatchND {
+	background: none;
+}
+
+.tf_squeeze {
+	background: none;
+}
+
+.Slicing_and_Joining {
+	background: none;
+}
+
+.tf_booleanMaskAsync {
+	background: none;
+}
+
+.tf_concat {
+	background: none;
+}
+
+.tf_gather {
+	background: none;
+}
+
+.tf_reverse {
+	background: none;
+}
+
+.tf_slice {
+	background: none;
+}
+
+.tf_split {
+	background: none;
+}
+
+.tf_stack {
+	background: none;
+}
+
+.tf_tile {
+	background: none;
+}
+
+.tf_unstack {
+	background: none;
+}
+
+.Random {
+	background: none;
+}
+
+.tf_multinomial {
+	background: none;
+}
+
+.tf_randomGamma {
+	background: none;
+}
+
+.tf_randomNormal {
+	background: none;
+}
+
+.tf_randomUniform {
+	background: none;
+}
+
+.Creation {
+	background: rgba(206, 24, 0, 0.685);
+}
+
+.tf_sequential {
+	background: none;
+}
+
+.tf_model {
+	background: none;
+}
+
+.Inputs {
+	background: none;
+}
+
+.tf_input {
+	background: none;
+}
+
+.Loading {
+	background: none;
+}
+
+.tf_loadGraphModel {
+	background: none;
+}
+
+.tf_loadLayersModel {
+	background: none;
+}
+
+.tf_io_browserDownloads {
+	background: none;
+}
+
+.tf_io_browserFiles {
+	background: none;
+}
+
+.tf_io_http {
+	background: none;
+}
+
+.Management {
+	background: none;
+}
+
+.tf_io_copyModel {
+	background: none;
+}
+
+.tf_io_listModels {
+	background: none;
+}
+
+.tf_io_moveModel {
+	background: none;
+}
+
+.tf_io_removeModel {
+	background: none;
+}
+
+.Serialization {
+	background: none;
+}
+
+.tf_registerClass {
+	background: none;
+}
+
+.Classes {
+	background: none;
+}
+
+.tf_GraphModel_loadSync {
+	background: none;
+}
+
+.tf_GraphModel_save {
+	background: none;
+}
+
+.tf_GraphModel_predict {
+	background: none;
+}
+
+.tf_GraphModel_execute {
+	background: none;
+}
+
+.tf_GraphModel_executeAsync {
+	background: none;
+}
+
+.tf_GraphModel_dispose {
+	background: none;
+}
+
+.tf_LayersModel_summary {
+	background: none;
+}
+
+.tf_LayersModel_compile {
+	background: none;
+}
+
+.tf_LayersModel_evaluate {
+	background: none;
+}
+
+.tf_LayersModel_evaluateDataset {
+	background: none;
+}
+
+.tf_LayersModel_predict {
+	background: none;
+}
+
+.tf_LayersModel_predictOnBatch {
+	background: none;
+}
+
+.tf_LayersModel_fit {
+	background: none;
+}
+
+.tf_LayersModel_fitDataset {
+	background: none;
+}
+
+.tf_LayersModel_trainOnBatch {
+	background: none;
+}
+
+.tf_LayersModel_save {
+	background: none;
+}
+
+.tf_LayersModel_getLayer {
+	background: none;
+}
+
+.tf_Sequential {
+	background: none;
+}
+
+.tf_Sequential_add {
+	background: none;
+}
+
+.tf_Sequential_summary {
+	background: none;
+}
+
+.tf_Sequential_evaluate {
+	background: none;
+}
+
+.tf_Sequential_evaluateDataset {
+	background: none;
+}
+
+.tf_Sequential_predict {
+	background: none;
+}
+
+.tf_Sequential_fit {
+	background: none;
+}
+
+.tf_Sequential_fitDataset {
+	background: none;
+}
+
+.tf_Sequential_trainOnBatch {
+	background: none;
+}
+
+.tf_SymbolicTensor {
+	background: none;
+}
+
+.Op_Registry {
+	background: none;
+}
+
+.tf_deregisterOp {
+	background: none;
+}
+
+.tf_getRegisteredOp {
+	background: none;
+}
+
+.tf_registerOp {
+	background: none;
+}
+
+.Advanced_Activation {
+	background: rgb(1, 7, 61);
+}
+
+.tf_layers_elu {
+	background: none;
+}
+
+.tf_layers_leakyReLU {
+	background: none;
+}
+
+.tf_layers_prelu {
+	background: none;
+}
+
+.tf_layers_reLU {
+	background: none;
+}
+
+.tf_layers_softmax {
+	background: none;
+}
+
+.tf_layers_thresholdedReLU {
+	background: none;
+}
+
+.Basic {
+	background: rgb(0, 75, 0);
+}
+
+.tf_layers_activation {
+	background: none;
+}
+
+.tf_layers_dense {
+	background: none;
+}
+
+.tf_layers_dropout {
+	background: none;
+}
+
+.tf_layers_embedding {
+	background: none;
+}
+
+.tf_layers_flatten {
+	background: none;
+}
+
+.tf_layers_permute {
+	background: none;
+}
+
+.tf_layers_repeatVector {
+	background: none;
+}
+
+.tf_layers_reshape {
+	background: none;
+}
+
+.tf_layers_spatialDropout1d {
+	background: none;
+}
+
+.Convolutional {
+	background: rgba(20, 45, 129, 0.692);
+}
+
+.tf_layers_conv1d {
+	background: none;
+}
+
+.tf_layers_conv2d {
+	background: none;
+}
+
+.tf_layers_conv2dTranspose {
+	background: none;
+}
+
+.tf_layers_conv3d {
+	background: none;
+}
+
+.tf_layers_cropping2D {
+	background: none;
+}
+
+.tf_layers_depthwiseConv2d {
+	background: none;
+}
+
+.tf_layers_separableConv2d {
+	background: none;
+}
+
+.tf_layers_upSampling2d {
+	background: none;
+}
+
+.Merge {
+	background: none;
+}
+
+.tf_layers_add {
+	background: none;
+}
+
+.tf_layers_average {
+	background: none;
+}
+
+.tf_layers_concatenate {
+	background: none;
+}
+
+.tf_layers_dot {
+	background: none;
+}
+
+.tf_layers_maximum {
+	background: none;
+}
+
+.tf_layers_minimum {
+	background: none;
+}
+
+.tf_layers_multiply {
+	background: none;
+}
+
+
+
+.tf_layers_batchNormalization {
+	background: rgba(0, 204, 177, 0.589);
+}
+
+.tf_layers_layerNormalization {
+	background: none;
+}
+
+.Pooling {
+	background: rgba(88, 0, 0, 0.856);
+}
+
+.tf_layers_averagePooling1d {
+	background: none;
+}
+
+.tf_layers_averagePooling2d {
+	background: none;
+}
+
+.tf_layers_averagePooling3d {
+	background: none;
+}
+
+.tf_layers_globalAveragePooling1d {
+	background: none;
+}
+
+.tf_layers_globalAveragePooling2d {
+	background: none;
+}
+
+.tf_layers_globalMaxPooling1d {
+	background: none;
+}
+
+.tf_layers_globalMaxPooling2d {
+	background: none;
+}
+
+.tf_layers_maxPooling1d {
+	background: none;
+}
+
+.tf_layers_maxPooling2d {
+	background: none;
+}
+
+.tf_layers_maxPooling3d {
+	background: none;
+}
+
+.Recurrent {
+	background: none;
+}
+
+.tf_layers_gru {
+	background: none;
+}
+
+.tf_layers_gruCell {
+	background: none;
+}
+
+.tf_layers_lstm {
+	background: none;
+}
+
+.tf_layers_lstmCell {
+	background: none;
+}
+
+.tf_layers_rnn {
+	background: none;
+}
+
+.tf_layers_simpleRNN {
+	background: none;
+}
+
+.tf_layers_simpleRNNCell {
+	background: none;
+}
+
+.tf_layers_stackedRNNCells {
+	background: none;
+}
+
+.Wrapper {
+	background: none;
+}
+
+.tf_layers_bidirectional {
+	background: none;
+}
+
+.tf_layers_timeDistributed {
+	background: none;
+}
+
+.Classes {
+	background: none;
+}
+
+.tf_layers_Layer {
+	background: none;
+}
+
+.tf_layers_Layer_apply {
+	background: none;
+}
+
+.tf_layers_Layer_countParams {
+	background: none;
+}
+
+.tf_layers_Layer_build {
+	background: none;
+}
+
+.tf_layers_Layer_getWeights {
+	background: none;
+}
+
+.tf_layers_Layer_setWeights {
+	background: none;
+}
+
+.tf_layers_Layer_addWeight {
+	background: none;
+}
+
+.tf_layers_Layer_addLoss {
+	background: none;
+}
+
+.tf_layers_Layer_computeOutputShape {
+	background: none;
+}
+
+.tf_layers_Layer_getConfig {
+	background: none;
+}
+
+.tf_layers_Layer_dispose {
+	background: none;
+}
+
+.tf_RNNCell {
+	background: none;
+}
+
+.Inputs {
+	background: rgb(128, 73, 0);
+}
+
+.tf_layers_inputLayer {
+	background: none;
+}
+
+.Padding {
+	background: none;
+}
+
+.tf_layers_zeroPadding2d {
+	background: none;
+}
+
+.Noise {
+	background: none;
+}
+
+.tf_layers_alphaDropout {
+	background: none;
+}
+
+.tf_layers_gaussianDropout {
+	background: none;
+}
+
+.tf_layers_gaussianNoise {
+	background: none;
+}
+
+.Mask {
+	background: none;
+}
+
+.tf_layers_masking {
+	background: none;
+}
+
+.Arithmetic {
+	background: none;
+}
+
+.tf_add {
+	background: none;
+}
+
+.tf_sub {
+	background: none;
+}
+
+.tf_mul {
+	background: none;
+}
+
+.tf_div {
+	background: none;
+}
+
+.tf_addN {
+	background: none;
+}
+
+.tf_divNoNan {
+	background: none;
+}
+
+.tf_floorDiv {
+	background: none;
+}
+
+.tf_maximum {
+	background: none;
+}
+
+.tf_minimum {
+	background: none;
+}
+
+.tf_mod {
+	background: none;
+}
+
+.tf_pow {
+	background: none;
+}
+
+.tf_squaredDifference {
+	background: none;
+}
+
+.Basic_math {
+	background: none;
+}
+
+.tf_abs {
+	background: none;
+}
+
+.tf_acos {
+	background: none;
+}
+
+.tf_acosh {
+	background: none;
+}
+
+.tf_asin {
+	background: none;
+}
+
+.tf_asinh {
+	background: none;
+}
+
+.tf_atan {
+	background: none;
+}
+
+.tf_atan2 {
+	background: none;
+}
+
+.tf_atanh {
+	background: none;
+}
+
+.tf_ceil {
+	background: none;
+}
+
+.tf_clipByValue {
+	background: none;
+}
+
+.tf_cos {
+	background: none;
+}
+
+.tf_cosh {
+	background: none;
+}
+
+.tf_dilation2d {
+	background: none;
+}
+
+.tf_elu {
+	background: none;
+}
+
+.tf_erf {
+	background: none;
+}
+
+.tf_exp {
+	background: none;
+}
+
+.tf_expm1 {
+	background: none;
+}
+
+.tf_floor {
+	background: none;
+}
+
+.tf_isFinite {
+	background: none;
+}
+
+.tf_isInf {
+	background: none;
+}
+
+.tf_isNaN {
+	background: none;
+}
+
+.tf_leakyRelu {
+	background: none;
+}
+
+.tf_log {
+	background: none;
+}
+
+.tf_log1p {
+	background: none;
+}
+
+.tf_logSigmoid {
+	background: none;
+}
+
+.tf_neg {
+	background: none;
+}
+
+.tf_prelu {
+	background: none;
+}
+
+.tf_reciprocal {
+	background: none;
+}
+
+.tf_relu {
+	background: none;
+}
+
+.tf_relu6 {
+	background: none;
+}
+
+.tf_round {
+	background: none;
+}
+
+.tf_rsqrt {
+	background: none;
+}
+
+.tf_selu {
+	background: none;
+}
+
+.tf_sigmoid {
+	background: none;
+}
+
+.tf_sign {
+	background: none;
+}
+
+.tf_sin {
+	background: none;
+}
+
+.tf_sinh {
+	background: none;
+}
+
+.tf_softplus {
+	background: none;
+}
+
+.tf_sqrt {
+	background: none;
+}
+
+.tf_square {
+	background: none;
+}
+
+.tf_step {
+	background: none;
+}
+
+.tf_tan {
+	background: none;
+}
+
+.tf_tanh {
+	background: none;
+}
+
+.Matrices {
+	background: none;
+}
+
+.tf_dot {
+	background: none;
+}
+
+.tf_matMul {
+	background: none;
+}
+
+.tf_norm {
+	background: none;
+}
+
+.tf_outerProduct {
+	background: none;
+}
+
+.tf_transpose {
+	background: none;
+}
+
+.Convolution {
+	background: none;
+}
+
+.tf_avgPool3d {
+	background: none;
+}
+
+.tf_conv1d {
+	background: none;
+}
+
+.tf_conv2d {
+	background: none;
+}
+
+.tf_conv2dTranspose {
+	background: none;
+}
+
+.tf_conv3d {
+	background: none;
+}
+
+.tf_conv3dTranspose {
+	background: none;
+}
+
+.tf_depthwiseConv2d {
+	background: none;
+}
+
+.tf_maxPool3d {
+	background: none;
+}
+
+.tf_maxPoolWithArgmax {
+	background: none;
+}
+
+.tf_pool {
+	background: none;
+}
+
+.tf_separableConv2d {
+	background: none;
+}
+
+.Reduction {
+	background: none;
+}
+
+.tf_all {
+	background: none;
+}
+
+.tf_any {
+	background: none;
+}
+
+.tf_argMax {
+	background: none;
+}
+
+.tf_argMin {
+	background: none;
+}
+
+.tf_logSumExp {
+	background: none;
+}
+
+.tf_max {
+	background: none;
+}
+
+.tf_mean {
+	background: none;
+}
+
+.tf_min {
+	background: none;
+}
+
+.tf_prod {
+	background: none;
+}
+
+.tf_sum {
+	background: none;
+}
+
+.Normalization {
+	background: rgba(0, 112, 97, 0.589);
+}
+
+.tf_batchNorm {
+	background: none;
+}
+
+.tf_localResponseNormalization {
+	background: none;
+}
+
+.tf_logSoftmax {
+	background: none;
+}
+
+.tf_moments {
+	background: none;
+}
+
+.tf_softmax {
+	background: none;
+}
+
+.tf_sparseToDense {
+	background: none;
+}
+
+.Images {
+	background: none;
+}
+
+.tf_image_cropAndResize {
+	background: none;
+}
+
+.tf_image_flipLeftRight {
+	background: none;
+}
+
+.tf_image_nonMaxSuppressionAsync {
+	background: none;
+}
+
+.tf_image_nonMaxSuppressionPadded {
+	background: none;
+}
+
+.tf_image_nonMaxSuppressionPaddedAsync {
+	background: none;
+}
+
+.tf_image_nonMaxSuppressionWithScore {
+	background: none;
+}
+
+.tf_image_nonMaxSuppressionWithScoreAsync {
+	background: none;
+}
+
+.tf_image_resizeBilinear {
+	background: none;
+}
+
+.tf_image_resizeNearestNeighbor {
+	background: none;
+}
+
+.tf_image_rotateWithOffset {
+	background: none;
+}
+
+.Rnn {
+	background: none;
+}
+
+.tf_basicLSTMCell {
+	background: none;
+}
+
+.tf_multiRNNCell {
+	background: none;
+}
+
+.Logical {
+	background: none;
+}
+
+.tf_equal {
+	background: none;
+}
+
+.tf_greater {
+	background: none;
+}
+
+.tf_greaterEqual {
+	background: none;
+}
+
+.tf_less {
+	background: none;
+}
+
+.tf_lessEqual {
+	background: none;
+}
+
+.tf_logicalAnd {
+	background: none;
+}
+
+.tf_logicalNot {
+	background: none;
+}
+
+.tf_logicalOr {
+	background: none;
+}
+
+.tf_logicalXor {
+	background: none;
+}
+
+.tf_notEqual {
+	background: none;
+}
+
+.tf_where {
+	background: none;
+}
+
+.tf_whereAsync {
+	background: none;
+}
+
+.Scan {
+	background: none;
+}
+
+.tf_cumsum {
+	background: none;
+}
+
+.Spectral {
+	background: none;
+}
+
+.tf_spectral_fft {
+	background: none;
+}
+
+.tf_spectral_ifft {
+	background: none;
+}
+
+.tf_spectral_irfft {
+	background: none;
+}
+
+.tf_spectral_rfft {
+	background: none;
+}
+
+.Slicing_and_Joining {
+	background: none;
+}
+
+.tf_gatherND {
+	background: none;
+}
+
+.tf_scatterND {
+	background: none;
+}
+
+.tf_stridedSlice {
+	background: none;
+}
+
+.Evaluation {
+	background: none;
+}
+
+.tf_confusionMatrix {
+	background: none;
+}
+
+.tf_inTopKAsync {
+	background: none;
+}
+
+.tf_topk {
+	background: none;
+}
+
+.Segment {
+	background: none;
+}
+
+.tf_unsortedSegmentSum {
+	background: none;
+}
+
+.Moving_Average {
+	background: none;
+}
+
+.tf_movingAverage {
+	background: none;
+}
+
+.Dropout {
+	background: none;
+}
+
+.tf_dropout {
+	background: none;
+}
+
+.Signal {
+	background: none;
+}
+
+.tf_signal_frame {
+	background: none;
+}
+
+.tf_signal_hammingWindow {
+	background: none;
+}
+
+.tf_signal_hannWindow {
+	background: none;
+}
+
+.tf_signal_stft {
+	background: none;
+}
+
+.Linear_Algebra {
+	background: none;
+}
+
+.tf_linalg_bandPart {
+	background: none;
+}
+
+.tf_linalg_gramSchmidt {
+	background: none;
+}
+
+.tf_linalg_qr {
+	background: none;
+}
+
+.Gradients {
+	background: none;
+}
+
+.tf_grad {
+	background: none;
+}
+
+.tf_grads {
+	background: none;
+}
+
+.tf_customGrad {
+	background: none;
+}
+
+.tf_valueAndGrad {
+	background: none;
+}
+
+.tf_valueAndGrads {
+	background: none;
+}
+
+.tf_variableGrads {
+	background: none;
+}
+
+.Optimizers {
+	background: none;
+}
+
+.tf_train_sgd {
+	background: none;
+}
+
+.tf_train_momentum {
+	background: none;
+}
+
+.tf_train_adagrad {
+	background: none;
+}
+
+.tf_train_adadelta {
+	background: none;
+}
+
+.tf_train_adam {
+	background: none;
+}
+
+.tf_train_adamax {
+	background: none;
+}
+
+.tf_train_rmsprop {
+	background: none;
+}
+
+.Losses {
+	background: none;
+}
+
+.tf_losses_absoluteDifference {
+	background: none;
+}
+
+.tf_losses_computeWeightedLoss {
+	background: none;
+}
+
+.tf_losses_cosineDistance {
+	background: none;
+}
+
+.tf_losses_hingeLoss {
+	background: none;
+}
+
+.tf_losses_huberLoss {
+	background: none;
+}
+
+.tf_losses_logLoss {
+	background: none;
+}
+
+.tf_losses_meanSquaredError {
+	background: none;
+}
+
+.tf_losses_sigmoidCrossEntropy {
+	background: none;
+}
+
+.tf_losses_softmaxCrossEntropy {
+	background: none;
+}
+
+.Classes {
+	background: none;
+}
+
+.tf_train_Optimizer_minimize {
+	background: none;
+}
+
+.tf_train_Optimizer_computeGradients {
+	background: none;
+}
+
+.tf_train_Optimizer_applyGradients {
+	background: none;
+}
+
+.Classes {
+	background: none;
+}
+
+.tf_constraints_Constraint {
+	background: none;
+}
+
+.tf_constraints_maxNorm {
+	background: none;
+}
+
+.tf_constraints_minMaxNorm {
+	background: none;
+}
+
+.tf_constraints_nonNeg {
+	background: none;
+}
+
+.tf_constraints_unitNorm {
+	background: none;
+}
+
+.Classes {
+	background: none;
+}
+
+.tf_initializers_Initializer {
+	background: none;
+}
+
+.tf_initializers_constant {
+	background: none;
+}
+
+.tf_initializers_glorotNormal {
+	background: none;
+}
+
+.tf_initializers_glorotUniform {
+	background: none;
+}
+
+.tf_initializers_heNormal {
+	background: none;
+}
+
+.tf_initializers_heUniform {
+	background: none;
+}
+
+.tf_initializers_identity {
+	background: none;
+}
+
+.tf_initializers_leCunNormal {
+	background: none;
+}
+
+.tf_initializers_leCunUniform {
+	background: none;
+}
+
+.tf_initializers_ones {
+	background: none;
+}
+
+.tf_initializers_orthogonal {
+	background: none;
+}
+
+.tf_initializers_randomNormal {
+	background: none;
+}
+
+.tf_initializers_randomUniform {
+	background: none;
+}
+
+.tf_initializers_truncatedNormal {
+	background: none;
+}
+
+.tf_initializers_varianceScaling {
+	background: none;
+}
+
+.tf_initializers_zeros {
+	background: none;
+}
+
+.Regularizers {
+	background: none;
+}
+
+.tf_regularizers_l1 {
+	background: none;
+}
+
+.tf_regularizers_l1l2 {
+	background: none;
+}
+
+.tf_regularizers_l2 {
+	background: none;
+}
+
+.Util {
+	background: none;
+}
+
+.tf_util_assert {
+	background: none;
+}
+
+.tf_util_createShuffledIndices {
+	background: none;
+}
+
+.tf_decodeString {
+	background: none;
+}
+
+.tf_encodeString {
+	background: none;
+}
+
+.tf_fetch {
+	background: none;
+}
+
+.tf_util_flatten {
+	background: none;
+}
+
+.tf_util_now {
+	background: none;
+}
+
+.tf_util_shuffle {
+	background: none;
+}
+
+.tf_util_sizeFromShape {
+	background: none;
+}
+
+.Backends {
+	background: none;
+}
+
+.tf_backend {
+	background: none;
+}
+
+.tf_getBackend {
+	background: none;
+}
+
+.tf_ready {
+	background: none;
+}
+
+.tf_registerBackend {
+	background: none;
+}
+
+.tf_removeBackend {
+	background: none;
+}
+
+.tf_setBackend {
+	background: none;
+}
+
+.Browser {
+	background: none;
+}
+
+.tf_browser_fromPixels {
+	background: none;
+}
+
+.tf_browser_toPixels {
+	background: none;
+}
+
+.Metrics {
+	background: none;
+}
+
+.tf_metrics_binaryAccuracy {
+	background: none;
+}
+
+.tf_metrics_binaryCrossentropy {
+	background: none;
+}
+
+.tf_metrics_categoricalAccuracy {
+	background: none;
+}
+
+.tf_metrics_categoricalCrossentropy {
+	background: none;
+}
+
+.tf_metrics_cosineProximity {
+	background: none;
+}
+
+.tf_metrics_meanAbsoluteError {
+	background: none;
+}
+
+.tf_metrics_meanAbsolutePercentageError {
+	background: none;
+}
+
+.tf_metrics_meanSquaredError {
+	background: none;
+}
+
+.tf_metrics_precision {
+	background: none;
+}
+
+.tf_metrics_recall {
+	background: none;
+}
+
+.tf_metrics_sparseCategoricalAccuracy {
+	background: none;
+}
+
+.Callbacks {
+	background: none;
+}
+
+.tf_callbacks_earlyStopping {
+	background: none;
+}

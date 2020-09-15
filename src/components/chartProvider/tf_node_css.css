@@ -1,0 +1,139 @@
+:root {
+    --height_speed: .2s
+
+}
+
+.handle {
+    width:100px;
+    height:12px;
+    opacity: .25;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .1s ease
+}
+
+.handle:hover {
+    opacity:.5
+}
+
+.node_container {
+    border:1px solid rgba(255,255,255,.1); 
+    border-radius:5px;
+    transition: .2s ease;
+    box-shadow: 0px 0px 5px  black;
+}
+
+
+/* .node_container:hover {
+    box-shadow: 0px 0px 5px  gray;
+} */
+
+.node_container .selected {
+    box-shadow: 0px 0px 5px  white;
+    border-radius:5px;
+    transition: .2s ease;
+
+}
+
+.node_content {
+    display: flex;
+}
+
+.node_header {
+    width:100%;
+    min-height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: Flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.node_header strong{
+    font-size:16px;
+    display: flex;
+    flex:3;
+    color: #eee;
+    padding-left: 10px
+}
+
+.node_header input {
+    font-size:16px;
+    margin-right: 16px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;  
+    text-align:right;
+    display:flex;
+    flex:2;
+    color: #ccc;
+    padding-right: 10px;
+    background: transparent;
+    min-width:1%;
+}
+
+.shrink_button {
+    width:100%;
+    border: none;
+    outline: none;
+    height: 24px;
+    color: #CCC;
+    background: #222;
+    transition: .2s ease;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    flex:1;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.shrink_button .label {
+    color:#eee;
+    font-size: 16px;
+    flex:1;
+    text-align: left;
+}
+
+.shrink_button:hover {
+    filter: brightness(1.1)
+}
+
+.shrink_button .arrow {
+    text-align: right;
+    color:"#eee";
+    font-Size:16px;
+    transition: .3 ease;
+    flex:1;
+}
+
+.arrow {
+    transform: scaleY(1);
+    transition: .2s ease
+}
+
+.rotated {
+    transform: scaleY(-1);
+}
+
+.params_container {
+    width:100%;
+    background:#111; 
+    opacity:.85;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    /* padding-bottom:10px; */
+    height:100px;
+    overflow-y:'scroll';
+    transition: .2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.shrinked {
+    height:0;
+    overflow-y:'hidden';
+   
+}

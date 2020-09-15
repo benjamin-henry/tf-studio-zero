@@ -1,0 +1,523 @@
+{
+    "BACKENDS": {
+      "Backends": [
+        "tf.backend",
+        "tf.getBackend",
+        "tf.ready",
+        "tf.registerBackend",
+        "tf.removeBackend",
+        "tf.setBackend"
+      ]
+    },
+    "BROWSER": {
+      "Browser": [
+        "tf.browser.fromPixels",
+        "tf.browser.toPixels"
+      ]
+    },
+    "CALLBACKS": {
+      "Callbacks": [
+        "tf.callbacks.earlyStopping"
+      ]
+    },
+    "CONSTRAINTS": {
+      "Classes": [
+        "tf.constraints.Constraint",
+        "tf.constraints.maxNorm",
+        "tf.constraints.minMaxNorm",
+        "tf.constraints.nonNeg",
+        "tf.constraints.unitNorm"
+      ]
+    },
+    "INITIALIZERS": {
+      "Classes": [
+        "tf.initializers.Initializer",
+        "tf.initializers.constant",
+        "tf.initializers.glorotNormal",
+        "tf.initializers.glorotUniform",
+        "tf.initializers.heNormal",
+        "tf.initializers.heUniform",
+        "tf.initializers.identity",
+        "tf.initializers.leCunNormal",
+        "tf.initializers.leCunUniform",
+        "tf.initializers.ones",
+        "tf.initializers.orthogonal",
+        "tf.initializers.randomNormal",
+        "tf.initializers.randomUniform",
+        "tf.initializers.truncatedNormal",
+        "tf.initializers.varianceScaling",
+        "tf.initializers.zeros"
+      ]
+    },
+    "LAYERS": {
+      "Advanced Activation": [
+        "tf.layers.elu",
+        "tf.layers.leakyReLU",
+        "tf.layers.prelu",
+        "tf.layers.reLU",
+        "tf.layers.softmax",
+        "tf.layers.thresholdedReLU"
+      ],
+      "Basic": [
+        "tf.layers.activation",
+        "tf.layers.dense",
+        "tf.layers.dropout",
+        "tf.layers.embedding",
+        "tf.layers.flatten",
+        "tf.layers.permute",
+        "tf.layers.repeatVector",
+        "tf.layers.reshape",
+        "tf.layers.spatialDropout1d"
+      ],
+      "Classes": [
+        "tf.RNNCell",
+        "tf.layers.Layer",
+        "tf.layers.Layer.addLoss",
+        "tf.layers.Layer.addWeight",
+        "tf.layers.Layer.apply",
+        "tf.layers.Layer.build",
+        "tf.layers.Layer.computeOutputShape",
+        "tf.layers.Layer.countParams",
+        "tf.layers.Layer.dispose",
+        "tf.layers.Layer.getConfig",
+        "tf.layers.Layer.getWeights",
+        "tf.layers.Layer.setWeights"
+      ],
+      "Convolutional": [
+        "tf.layers.conv1d",
+        "tf.layers.conv2d",
+        "tf.layers.conv2dTranspose",
+        "tf.layers.conv3d",
+        "tf.layers.cropping2D",
+        "tf.layers.depthwiseConv2d",
+        "tf.layers.separableConv2d",
+        "tf.layers.upSampling2d"
+      ],
+      "Inputs": [
+        "tf.layers.inputLayer"
+      ],
+      "Mask": [
+        "tf.layers.masking"
+      ],
+      "Merge": [
+        "tf.layers.add",
+        "tf.layers.average",
+        "tf.layers.concatenate",
+        "tf.layers.dot",
+        "tf.layers.maximum",
+        "tf.layers.minimum",
+        "tf.layers.multiply"
+      ],
+      "Noise": [
+        "tf.layers.alphaDropout",
+        "tf.layers.gaussianDropout",
+        "tf.layers.gaussianNoise"
+      ],
+      "Normalization": [
+        "tf.layers.batchNormalization",
+        "tf.layers.layerNormalization"
+      ],
+      "Padding": [
+        "tf.layers.zeroPadding2d"
+      ],
+      "Pooling": [
+        "tf.layers.averagePooling1d",
+        "tf.layers.averagePooling2d",
+        "tf.layers.averagePooling3d",
+        "tf.layers.globalAveragePooling1d",
+        "tf.layers.globalAveragePooling2d",
+        "tf.layers.globalMaxPooling1d",
+        "tf.layers.globalMaxPooling2d",
+        "tf.layers.maxPooling1d",
+        "tf.layers.maxPooling2d",
+        "tf.layers.maxPooling3d"
+      ],
+      "Recurrent": [
+        "tf.layers.gru",
+        "tf.layers.gruCell",
+        "tf.layers.lstm",
+        "tf.layers.lstmCell",
+        "tf.layers.rnn",
+        "tf.layers.simpleRNN",
+        "tf.layers.simpleRNNCell",
+        "tf.layers.stackedRNNCells"
+      ],
+      "Wrapper": [
+        "tf.layers.bidirectional",
+        "tf.layers.timeDistributed"
+      ]
+    },
+    "METRICS": {
+      "Metrics": [
+        "tf.metrics.binaryAccuracy",
+        "tf.metrics.binaryCrossentropy",
+        "tf.metrics.categoricalAccuracy",
+        "tf.metrics.categoricalCrossentropy",
+        "tf.metrics.cosineProximity",
+        "tf.metrics.meanAbsoluteError",
+        "tf.metrics.meanAbsolutePercentageError",
+        "tf.metrics.meanSquaredError",
+        "tf.metrics.precision",
+        "tf.metrics.recall",
+        "tf.metrics.sparseCategoricalAccuracy"
+      ]
+    },
+    "MODELS": {
+      "Classes": [
+        "tf.GraphModel.dispose",
+        "tf.GraphModel.execute",
+        "tf.GraphModel.executeAsync",
+        "tf.GraphModel.loadSync",
+        "tf.GraphModel.predict",
+        "tf.GraphModel.save",
+        "tf.LayersModel.compile",
+        "tf.LayersModel.evaluate",
+        "tf.LayersModel.evaluateDataset",
+        "tf.LayersModel.fit",
+        "tf.LayersModel.fitDataset",
+        "tf.LayersModel.getLayer",
+        "tf.LayersModel.predict",
+        "tf.LayersModel.predictOnBatch",
+        "tf.LayersModel.save",
+        "tf.LayersModel.summary",
+        "tf.LayersModel.trainOnBatch",
+        "tf.Sequential",
+        "tf.Sequential.add",
+        "tf.Sequential.evaluate",
+        "tf.Sequential.evaluateDataset",
+        "tf.Sequential.fit",
+        "tf.Sequential.fitDataset",
+        "tf.Sequential.predict",
+        "tf.Sequential.summary",
+        "tf.Sequential.trainOnBatch",
+        "tf.SymbolicTensor"
+      ],
+      "Creation": [
+        "tf.model",
+        "tf.sequential"
+      ],
+      "Inputs": [
+        "tf.input"
+      ],
+      "Loading": [
+        "tf.io.browserDownloads",
+        "tf.io.browserFiles",
+        "tf.io.http",
+        "tf.loadGraphModel",
+        "tf.loadLayersModel"
+      ],
+      "Management": [
+        "tf.io.copyModel",
+        "tf.io.listModels",
+        "tf.io.moveModel",
+        "tf.io.removeModel"
+      ],
+      "Op Registry": [
+        "tf.deregisterOp",
+        "tf.getRegisteredOp",
+        "tf.registerOp"
+      ],
+      "Serialization": [
+        "tf.registerClass"
+      ]
+    },
+    "OPERATIONS": {
+      "Arithmetic": [
+        "tf.add",
+        "tf.addN",
+        "tf.div",
+        "tf.divNoNan",
+        "tf.floorDiv",
+        "tf.maximum",
+        "tf.minimum",
+        "tf.mod",
+        "tf.mul",
+        "tf.pow",
+        "tf.squaredDifference",
+        "tf.sub"
+      ],
+      "Basic math": [
+        "tf.abs",
+        "tf.acos",
+        "tf.acosh",
+        "tf.asin",
+        "tf.asinh",
+        "tf.atan",
+        "tf.atan2",
+        "tf.atanh",
+        "tf.ceil",
+        "tf.clipByValue",
+        "tf.cos",
+        "tf.cosh",
+        "tf.dilation2d",
+        "tf.elu",
+        "tf.erf",
+        "tf.exp",
+        "tf.expm1",
+        "tf.floor",
+        "tf.isFinite",
+        "tf.isInf",
+        "tf.isNaN",
+        "tf.leakyRelu",
+        "tf.log",
+        "tf.log1p",
+        "tf.logSigmoid",
+        "tf.neg",
+        "tf.prelu",
+        "tf.reciprocal",
+        "tf.relu",
+        "tf.relu6",
+        "tf.round",
+        "tf.rsqrt",
+        "tf.selu",
+        "tf.sigmoid",
+        "tf.sign",
+        "tf.sin",
+        "tf.sinh",
+        "tf.softplus",
+        "tf.sqrt",
+        "tf.square",
+        "tf.step",
+        "tf.tan",
+        "tf.tanh"
+      ],
+      "Convolution": [
+        "tf.avgPool3d",
+        "tf.conv1d",
+        "tf.conv2d",
+        "tf.conv2dTranspose",
+        "tf.conv3d",
+        "tf.conv3dTranspose",
+        "tf.depthwiseConv2d",
+        "tf.maxPool3d",
+        "tf.maxPoolWithArgmax",
+        "tf.pool",
+        "tf.separableConv2d"
+      ],
+      "Dropout": [
+        "tf.dropout"
+      ],
+      "Evaluation": [
+        "tf.confusionMatrix",
+        "tf.inTopKAsync",
+        "tf.topk"
+      ],
+      "Images": [
+        "tf.image.cropAndResize",
+        "tf.image.flipLeftRight",
+        "tf.image.nonMaxSuppressionAsync",
+        "tf.image.nonMaxSuppressionPadded",
+        "tf.image.nonMaxSuppressionPaddedAsync",
+        "tf.image.nonMaxSuppressionWithScore",
+        "tf.image.nonMaxSuppressionWithScoreAsync",
+        "tf.image.resizeBilinear",
+        "tf.image.resizeNearestNeighbor",
+        "tf.image.rotateWithOffset"
+      ],
+      "Linear Algebra": [
+        "tf.linalg.bandPart",
+        "tf.linalg.gramSchmidt",
+        "tf.linalg.qr"
+      ],
+      "Logical": [
+        "tf.equal",
+        "tf.greater",
+        "tf.greaterEqual",
+        "tf.less",
+        "tf.lessEqual",
+        "tf.logicalAnd",
+        "tf.logicalNot",
+        "tf.logicalOr",
+        "tf.logicalXor",
+        "tf.notEqual",
+        "tf.where",
+        "tf.whereAsync"
+      ],
+      "Matrices": [
+        "tf.dot",
+        "tf.matMul",
+        "tf.norm",
+        "tf.outerProduct",
+        "tf.transpose"
+      ],
+      "Moving Average": [
+        "tf.movingAverage"
+      ],
+      "Normalization": [
+        "tf.batchNorm",
+        "tf.localResponseNormalization",
+        "tf.logSoftmax",
+        "tf.moments",
+        "tf.softmax",
+        "tf.sparseToDense"
+      ],
+      "Reduction": [
+        "tf.all",
+        "tf.any",
+        "tf.argMax",
+        "tf.argMin",
+        "tf.logSumExp",
+        "tf.max",
+        "tf.mean",
+        "tf.min",
+        "tf.prod",
+        "tf.sum"
+      ],
+      "Rnn": [
+        "tf.basicLSTMCell",
+        "tf.multiRNNCell"
+      ],
+      "Scan": [
+        "tf.cumsum"
+      ],
+      "Segment": [
+        "tf.unsortedSegmentSum"
+      ],
+      "Signal": [
+        "tf.signal.frame",
+        "tf.signal.hammingWindow",
+        "tf.signal.hannWindow",
+        "tf.signal.stft"
+      ],
+      "Slicing and Joining": [
+        "tf.gatherND",
+        "tf.scatterND",
+        "tf.stridedSlice"
+      ],
+      "Spectral": [
+        "tf.spectral.fft",
+        "tf.spectral.ifft",
+        "tf.spectral.irfft",
+        "tf.spectral.rfft"
+      ]
+    },
+    "REGULARIZERS": {
+      "Regularizers": [
+        "tf.regularizers.l1",
+        "tf.regularizers.l1l2",
+        "tf.regularizers.l2"
+      ]
+    },
+    "TENSORS": {
+      "Classes": [
+        "tf.Tensor.array",
+        "tf.Tensor.arraySync",
+        "tf.Tensor.buffer",
+        "tf.Tensor.bufferSync",
+        "tf.Tensor.clone",
+        "tf.Tensor.data",
+        "tf.Tensor.dataSync",
+        "tf.Tensor.dispose",
+        "tf.Tensor.print",
+        "tf.Tensor.toString",
+        "tf.TensorBuffer.get",
+        "tf.TensorBuffer.set",
+        "tf.TensorBuffer.toTensor",
+        "tf.Variable.assign"
+      ],
+      "Creation": [
+        "tf.buffer",
+        "tf.clone",
+        "tf.complex",
+        "tf.eye",
+        "tf.fill",
+        "tf.imag",
+        "tf.linspace",
+        "tf.oneHot",
+        "tf.ones",
+        "tf.onesLike",
+        "tf.print",
+        "tf.range",
+        "tf.real",
+        "tf.scalar",
+        "tf.tensor",
+        "tf.tensor1d",
+        "tf.tensor2d",
+        "tf.tensor3d",
+        "tf.tensor4d",
+        "tf.tensor5d",
+        "tf.tensor6d",
+        "tf.truncatedNormal",
+        "tf.variable",
+        "tf.zeros",
+        "tf.zerosLike"
+      ],
+      "Random": [
+        "tf.multinomial",
+        "tf.randomGamma",
+        "tf.randomNormal",
+        "tf.randomUniform"
+      ],
+      "Slicing and Joining": [
+        "tf.booleanMaskAsync",
+        "tf.concat",
+        "tf.gather",
+        "tf.reverse",
+        "tf.slice",
+        "tf.split",
+        "tf.stack",
+        "tf.tile",
+        "tf.unstack"
+      ],
+      "Transformations": [
+        "tf.batchToSpaceND",
+        "tf.broadcastTo",
+        "tf.cast",
+        "tf.depthToSpace",
+        "tf.expandDims",
+        "tf.pad",
+        "tf.reshape",
+        "tf.setdiff1dAsync",
+        "tf.spaceToBatchND",
+        "tf.squeeze"
+      ]
+    },
+    "TRAINING": {
+      "Classes": [
+        "tf.train.Optimizer.applyGradients",
+        "tf.train.Optimizer.computeGradients",
+        "tf.train.Optimizer.minimize"
+      ],
+      "Gradients": [
+        "tf.customGrad",
+        "tf.grad",
+        "tf.grads",
+        "tf.valueAndGrad",
+        "tf.valueAndGrads",
+        "tf.variableGrads"
+      ],
+      "Losses": [
+        "tf.losses.absoluteDifference",
+        "tf.losses.computeWeightedLoss",
+        "tf.losses.cosineDistance",
+        "tf.losses.hingeLoss",
+        "tf.losses.huberLoss",
+        "tf.losses.logLoss",
+        "tf.losses.meanSquaredError",
+        "tf.losses.sigmoidCrossEntropy",
+        "tf.losses.softmaxCrossEntropy"
+      ],
+      "Optimizers": [
+        "tf.train.adadelta",
+        "tf.train.adagrad",
+        "tf.train.adam",
+        "tf.train.adamax",
+        "tf.train.momentum",
+        "tf.train.rmsprop",
+        "tf.train.sgd"
+      ]
+    },
+    "UTIL": {
+      "Util": [
+        "tf.decodeString",
+        "tf.encodeString",
+        "tf.fetch",
+        "tf.util.assert",
+        "tf.util.createShuffledIndices",
+        "tf.util.flatten",
+        "tf.util.now",
+        "tf.util.shuffle",
+        "tf.util.sizeFromShape"
+      ]
+    }
+  }

@@ -1,0 +1,94 @@
+.providerflow {
+  /* display: flex;
+  height: 100%;
+  background: rgb(0, 32, 58);
+  margin-top: 32px; */
+  overflow: hidden;
+}
+
+.providerflow .left  {
+  max-width: 280px;
+  flex-grow: 1;
+  border-right: 1px solid rgb(85, 85, 85);
+  max-height: 100%;
+  /* margin-left: 5px; */
+  font-size: 12px;
+  background: #22262F;
+  opacity:1;
+  transition:.5s ease; 
+  color: rgb(187, 187, 187);
+  /* overflow: visible; */
+}
+
+
+.providerflow .left .description {
+  /* margin-bottom: 10px; */
+  height: 32px;
+  display:flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.providerflow .left .description span {
+  flex: 1;
+  font-size:20px;
+  align-items: center;
+  transition:.5s linear;
+  margin-left: 5px;
+}
+
+.providerflow .left .description button {
+  background: transparent;
+  color:#ccc;
+  outline: none;
+  width: 32px;
+  height:32px;
+  border-radius: 16px;
+  border:1px solid #ccc;
+  font-weight: bold;
+  transition: .5s linear;
+}
+
+.providerflow .left .description button:hover {
+  background: #ccc;
+  color:black;
+}
+
+
+.providerflow .left .title {
+  font-weight: "bold";
+  margin-bottom: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+  transition: .5s linear;
+}
+
+.providerflow .left .transform {
+  margin-bottom: 20px;
+  margin-left: 5px;
+  font-size: 16px;
+  transition: .5s linear;
+
+}
+
+.providerflow .nodeConnections {
+  font-size: 16px;
+  /* padding-left: 10px; */
+  transition: .5s linear;
+
+}
+
+.providerflow .reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+  transition: .1s linear;
+  overflow: hidden;
+}
+
+.provider-flow .right .model-section {
+
+}
+
+
