@@ -74,7 +74,7 @@ export default class ProviderFlow extends Component {
         event.preventDefault();
         console.log('cliked')
         if(this.state.selectedNode !== undefined) {
-            this.state.selectedNode.data.set_tf_function()
+            // this.state.selectedNode.data.set_tf_function()
             this.state.selectedNode.data.selected = false;
             this.setState({selectedNode: undefined})
         }
@@ -93,9 +93,6 @@ export default class ProviderFlow extends Component {
         let els = Array.from(this.state.elements)
         for(let e in els) max_id = max_id < parseInt(els[e].id) ? parseInt(els[e].id) : max_id
         el["id"] = (max_id + 1).toString()
-        // el.data.id = el.id
-        let label = el.data.op.split('.')
-        el.data["label"] = `${label[label.length-1]}_${el.id}`
         el.data.params["op"] = el.op
         els.push(el)
         this.setState({selectedNode: el})
@@ -110,10 +107,15 @@ export default class ProviderFlow extends Component {
                     op: op,
                     key:key,
                     _key: _key,
-                    params:{},
-                    selected:true,
-                    tf_function:{name:""}
+                    params:{name:undefined},
+                    tf_op:undefined,
+                    tf_function:undefined,
+                    tf_output:undefined,
+                    incomers:undefined,
+                    outgoers:undefined,
+                    type:undefined
                 },
+                selected:true,
                 style: {width: "330px"},
                 position:{x: this.state.flowOffset.x, y: this.state.flowOffset.y + 200*this.state.elements.length}
             })
