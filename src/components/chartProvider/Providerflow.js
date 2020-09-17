@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ReactFlow, { ReactFlowProvider, addEdge, removeElements, Controls, MiniMap, Background   } from 'react-flow-renderer';
+import ReactFlow, { ReactFlowProvider, addEdge, removeElements, Controls, MiniMap, Background  } from 'react-flow-renderer';
 import Leftbar from './Leftbar'
 import './provider.css';
 import customNode from './customNode'
@@ -64,9 +64,9 @@ export default class ProviderFlow extends Component {
 
     onElementClick = (event, element) => {
         event.preventDefault();
-        element.data.selected = true; 
+        element.selected = true; 
         if(this.state.selectedNode !== undefined)
-            this.state.selectedNode.data.selected = false
+            this.state.selectedNode.selected = false
         this.setState({selectedNode: element})
     };
 
@@ -75,7 +75,7 @@ export default class ProviderFlow extends Component {
         console.log('cliked')
         if(this.state.selectedNode !== undefined) {
             // this.state.selectedNode.data.set_tf_function()
-            this.state.selectedNode.data.selected = false;
+            this.state.selectedNode.selected = false;
             this.setState({selectedNode: undefined})
         }
     }
@@ -100,7 +100,8 @@ export default class ProviderFlow extends Component {
     }
 
     addElementByName = ({op, key, _key}) => {
-        this.addElement({
+        try {
+            this.addElement({
                 id:0,
                 type:"TfNode",
                 data:{
@@ -119,6 +120,10 @@ export default class ProviderFlow extends Component {
                 style: {width: "330px"},
                 position:{x: this.state.flowOffset.x, y: this.state.flowOffset.y + 200*this.state.elements.length}
             })
+        } catch (error) {
+            console.log(error)
+        }
+        
     }   
 
     render() {

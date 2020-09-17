@@ -7,7 +7,7 @@ const default_ops_params = {
             padding:"same",
             dataFormat:"channelsLast",
             dilationRate: 1,
-            activation:"relu",
+            activation:"linear",
             useBias:true,
             kernelRegularizer:null,
             kernelConstraint :null,
@@ -26,7 +26,7 @@ const default_ops_params = {
             padding:"same",
             dataFormat:"channelsLast",
             dilationRate: 1,
-            activation:"relu",
+            activation:"linear",
             useBias:true,
             kernelRegularizer:null,
             kernelConstraint :null,
@@ -45,7 +45,7 @@ const default_ops_params = {
             padding:"same",
             dataFormat:"channelsLast",
             dilationRate: 1,
-            activation:"relu",
+            activation:"linear",
             useBias:true,
             kernelRegularizer:null,
             kernelConstraint :null,
@@ -64,7 +64,7 @@ const default_ops_params = {
             padding:"same",
             dataFormat:"channelsLast",
             dilationRate: 1,
-            activation:"relu",
+            activation:"linear",
             useBias:true,
             kernelRegularizer:null,
             kernelConstraint :null,
@@ -86,7 +86,7 @@ const default_ops_params = {
             padding:"same",
             dataFormat:"channelsLast",
             dilationRate: 1,
-            activation:"relu",
+            activation:"linear",
             useBias:true,
             kernelRegularizer:null,
             kernelConstraint :null,
@@ -108,7 +108,7 @@ const default_ops_params = {
             padding:"same",
             dataFormat:"channelsLast",
             dilationRate: 1,
-            activation:"relu",
+            activation:"linear",
             useBias:true,
             kernelRegularizer:null,
             kernelConstraint :null,
@@ -123,12 +123,12 @@ const default_ops_params = {
     },
     "Basic": {
         "tf.layers.activation": {
-            activation: 'relu',
+            activation: 'linear',
             inputShape: null
         },
         "tf.layers.dense": {
             units: 32,
-            activation: "relu",
+            activation: "linear",
             useBias:true,
             kernelRegularizer:null,
             kernelConstraint :null,
@@ -405,9 +405,9 @@ const default_ops_params = {
     },
     "Pooling": {
         "tf.layers.averagePooling1d": {
-            poolSize : null,
-            strides: null,
-            padding : null,
+            poolSize : 2,
+            strides: 2,
+            padding : "same",
             inputShape :null,
             batchInputShape  :null,
             batchSize  :null,
@@ -418,9 +418,9 @@ const default_ops_params = {
             inputDType   :null,
         },
         "tf.layers.averagePooling2d":{
-            poolSize : null,
-            strides: null,
-            padding : null,
+            poolSize : 2,
+            strides: 2,
+            padding : "same",
             dataFormat :null,
             inputShape :null,
             batchInputShape  :null,
@@ -432,9 +432,9 @@ const default_ops_params = {
             inputDType   :null,
         },
         "tf.layers.averagePooling3d":{
-            poolSize : null,
-            strides: null,
-            padding : null,
+            poolSize : 2,
+            strides: 2,
+            padding : "same",
             dataFormat :null,
             inputShape :null,
             batchInputShape  :null,
@@ -489,9 +489,9 @@ const default_ops_params = {
             inputDType   :null,
         },
         "tf.layers.maxPooling1d":{
-            poolSize : null,
-            strides: null,
-            padding : null,
+            poolSize : 2,
+            strides: 2,
+            padding : "same",
             dataFormat :null,
             inputShape :null,
             batchInputShape  :null,
@@ -503,9 +503,9 @@ const default_ops_params = {
             inputDType   :null,
         },
         "tf.layers.maxPooling2d":{
-            poolSize : null,
-            strides: null,
-            padding : null,
+            poolSize : 2,
+            strides: 2,
+            padding : "same",
             dataFormat :null,
             inputShape :null,
             batchInputShape  :null,
@@ -517,9 +517,9 @@ const default_ops_params = {
             inputDType   :null,
         },
         "tf.layers.maxPooling3d":{
-            poolSize : null,
-            strides: null,
-            padding : null,
+            poolSize : 2,
+            strides: 2,
+            padding : "same",
             dataFormat :null,
             inputShape :null,
             batchInputShape  :null,
@@ -536,8 +536,8 @@ const default_ops_params = {
 
 
 const get_default_op_params = ({key, _key, op}) => {
-    if (default_ops_params[_key.replace(' ','_')][op] !== undefined)
-        return default_ops_params[_key.replace(' ','_')][op]
+    if (default_ops_params[_key][op] !== undefined)
+        return Object.assign({},default_ops_params[_key][op])
     return {}
 }
 

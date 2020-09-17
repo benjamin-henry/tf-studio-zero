@@ -126,7 +126,7 @@ const TfNode = React.memo(({id, data, selected, computed}) => {
 
     data.build = (elements) => {
         data.params.name = data.tf_function.name
-        // try {
+        try {
             
             //get node inputs and outputs
             let n = getNodeById(nodes, id) // self reference
@@ -165,41 +165,37 @@ const TfNode = React.memo(({id, data, selected, computed}) => {
                     data.apply_on_tf_output(tf_outputs)
                 }
 
-
                 // if no outgoers, node is considerer as an output
                 if(out.length < 1) {
                     data.type = 'output'
                 }
-                else 
-                // single output : build the next node data
-                if(out.length < 2) {
-                    out[0].data.build(elements)
-                }
-                // multiple outputs
+                
                 else { 
                     out.forEach((node)=>{
                         node.data.build(elements)
                     })
                 }
-                
             }    
-        // } catch (error) {
-        //     alert(error)
-        // }
+        } catch (error) {
+            console.log(error)
+        }
     }
 
     // parameters text input onChange event
     data.param_changed = (e, key) => {
         e.preventDefault();
+
         let tmp = e.target.value;
         const m = e.target.value.match(',')
         if(m) {
             tmp = tmp.split(',')
             tmp.forEach(i => parseInt(i));
         }   
-        else
+        else 
+        if(!isNaN(parseInt(tmp)))
             tmp = parseInt(tmp)
-
+        else
+        tmp=String(tmp)
         data.params[key]=tmp;   
     }
 
@@ -225,7 +221,7 @@ const TfNode = React.memo(({id, data, selected, computed}) => {
             <div>
                 <div className={`${keyToClassName(data)} node_header`}>                
                         <strong >{data.op}</strong>
-                        <input defaultValue={data.params.name} ></input>        
+                        <input  defaultValue={data.params.name} ></input>        
                 </div>
                 <button className="shrink_button" onClick={(e)=>{data.paramsBtnClicked(e)}}>
                     <span className="label">Parameters</span>
